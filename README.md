@@ -3,6 +3,8 @@ configure, provide context for, and utilize RAG agents in Discord just as you ca
 
 ### agent specs/features
 
+shoutout to Discord.js for helping me implement my code
+
 Provided the agent the last 100 messages in any given Discord conversation.
 Bypassed the Discord message text limit by using multiple messages and an algorithm to automatically split the messages.
 Dynamically inserted context (message history, files, purpose) into prompts for an LLM to improve its response.
